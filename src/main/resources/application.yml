@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    cache: false
+  profiles:
+    active: pro
+  messages:
+    basename: i18n/messages
+server:
+  port: 8102
+
+comment.avatar: /images/avatar.jpg
+message.avatar: /images/avatar.jpg
+user.defaultAvatar: /images/avatar.jpg

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>博客</title>
+  <link href="../static/images/favicon.ico" th:href="@{/images/favicon.ico}" rel="icon" type="image/x-ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  <link rel="stylesheet" href="../../static/css/me.css" th:href="@{/css/me.css}">
+</head>
+<body>
+
+
+<br>
+<br>
+
+<div class="ui m-opacity m-margin-top-max container">
+<img src="../../static/images/404.jpg" th:src="@{/images/404.jpg}" alt="" class="ui rounded bordered fluid image error-img">
+</div>
+<div class="m-margin-top-max" align="center">
+  <a href="#" th:href="@{/}">
+   <button type="button" class="ui blue button m-mobile-wide"><i class="home icon"></i>返回首页</button>
+  </a>
+</div>
+
+<br>
+<br>
+
+<!--底部栏-->
+<footer class="ui inverted vertical segment ">
+    <!--容器-->
+    <div class="ui center aligned container">
+        <div class="footer-title">SKY BLOG</div>
+        <div class="ui inverted section divider"></div>
+        <div id="blog-message">
+            <div th:fragment="blogMessage" class="ui inverted divided grid">
+                <div class="four wide column">
+                    <div>
+                        文章总数： <span class="statistic"
+                                  th:text="${blogTotal}"> 14 </span> 篇
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div>
+                        访问总数： <span class="statistic"
+                                                                           th:text="${blogViewTotal}"> 14 </span> 次
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div>
+                        评论总数： <span class="statistic"
+                                  th:text="${blogCommentTotal}"> 14 </span> 条
+                    </div>
+                </div>
+                <div class="four wide column">
+                    <div>
+                        <div>
+                            留言总数： <span class="statistic" th:text="${blogMessageTotal}"> 14 </span> 条
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
+<script>
+
+</script>
+<script src="../static/js/me.js" th:src="@{/js/me.js}" th:inline="javascript"></script>
+</body>
+</html>

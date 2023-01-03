@@ -1,0 +1,3 @@
+2022-03-19 12:28:01.670  INFO 45372 --- [main] com.sky.MyblogApplicationTests           : Starting MyblogApplicationTests on giupo with PID 45372 (started by polo in D:\ÕæÎÄµµ\Graduation thesis\sky_blog)
+2022-03-19 12:28:01.681  INFO 45372 --- [main] com.sky.MyblogApplicationTests           : The following profiles are active: pro
+2022-03-19 12:28:06.351  INFO 45372 --- [main] com.sky.MyblogApplicationTests           : Started MyblogApplicationTests in 5.198 seconds (JVM running for 6.498)

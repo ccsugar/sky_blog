@@ -1,0 +1,1421 @@
+2022-03-15 08:24:27.898  WARN 36620 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=8h36m3s342ms699µs600ns).
+2022-03-15 08:35:18.890  INFO 36620 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 08:35:18.912  INFO 36620 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 08:35:21.731  INFO 36620 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 08:35:21.761  INFO 36620 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 08:45:12.010  INFO 36620 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 08:45:12.013  INFO 36620 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 08:45:13.766  INFO 36620 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 08:45:13.783  INFO 36620 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:04:19.322  INFO 36620 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:04:19.341  INFO 36620 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:04:20.768  INFO 36620 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:04:20.795  INFO 36620 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:30:25.816  INFO 36620 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:30:25.825  INFO 36620 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:30:26.437  INFO 36620 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:30:26.454  INFO 36620 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:30:41.478  INFO 36620 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 10:30:41.487  INFO 36620 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-03-15 10:30:41.492  INFO 36620 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-03-15 10:30:49.486  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 10:30:49.489  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 10:30:49.547  INFO 2700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-15 10:30:49.547  INFO 2700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-15 10:30:51.110  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 10:30:51.118  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 10:30:51.118  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 10:30:51.218  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 10:30:51.219  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1671 ms
+2022-03-15 10:30:51.968  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 10:30:52.070  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 10:30:52.420  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 10:30:52.461  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 10:30:52.463  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 3.787 seconds (JVM running for 5.71)
+2022-03-15 10:31:17.613  INFO 2700 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 10:31:17.613  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 10:31:17.622  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-03-15 10:31:17.656  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:31:17.685  INFO 2700 --- [http-nio-8102-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-15 10:31:17.835  INFO 2700 --- [http-nio-8102-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-15 10:31:17.873  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:31:18.759  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:31:18.789  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:31:55.763  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:31:55.766  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:31:55.870  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:31:55.882  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:31:58.063  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:31:58.067  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:31:58.189  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:31:58.198  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:32:02.566  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:32:02.573  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:32:02.683  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:32:02.694  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:32:04.667  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:32:04.683  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:32:16.261  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:32:16.268  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:33:38.250  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:33:38.253  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:33:38.270 ERROR 2700 --- [http-nio-8102-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8102-exec-6] Exception processing template "friends": An error happened during template parsing (template: "class path resource [templates/friends.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/friends.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "friendlink.   blogaddress" (template: "friends" - line 97, col 24)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "friendlink.   blogaddress" (template: "friends" - line 97, col 24)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+
+2022-03-15 10:33:38.273 ERROR 2700 --- [http-nio-8102-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/friends.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "friendlink.   blogaddress" (template: "friends" - line 97, col 24)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-03-15 10:33:38.340  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:33:38.349  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:34:04.459  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:34:04.461  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:34:04.470 ERROR 2700 --- [http-nio-8102-exec-5] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8102-exec-5] Exception processing template "friends": An error happened during template parsing (template: "class path resource [templates/friends.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/friends.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "friendlink.   blogaddress" (template: "friends" - line 97, col 24)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "friendlink.   blogaddress" (template: "friends" - line 97, col 24)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+
+2022-03-15 10:34:04.471 ERROR 2700 --- [http-nio-8102-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/friends.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "friendlink.   blogaddress" (template: "friends" - line 97, col 24)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.Model.process(Model.java:282)
+	at org.thymeleaf.engine.Model.process(Model.java:290)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:367)
+	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:221)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleCloseElementEnd(TemplateHandlerAdapterMarkupHandler.java:388)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:322)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleCloseElementEnd(OutputExpressionInlinePreProcessorHandler.java:220)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleCloseElementEnd(InlinedOutputExpressionMarkupHandler.java:164)
+	at org.attoparser.HtmlElement.handleCloseElementEnd(HtmlElement.java:169)
+	at org.attoparser.HtmlMarkupHandler.handleCloseElementEnd(HtmlMarkupHandler.java:412)
+	at org.attoparser.MarkupEventProcessorHandler.handleCloseElementEnd(MarkupEventProcessorHandler.java:473)
+	at org.attoparser.ParsingElementMarkupUtil.parseCloseElement(ParsingElementMarkupUtil.java:201)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:725)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-03-15 10:34:04.553  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:34:04.563  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:34:29.749  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:34:29.752  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:34:29.842  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:34:29.869  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:34:45.611  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:34:45.613  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:34:45.685  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:34:45.701  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:38:43.672  INFO 2700 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 10:38:43.673  INFO 2700 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-15 10:38:43.681  INFO 2700 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-15 10:38:44.547  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 10:38:44.547  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 10:38:44.867  WARN 2700 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.sky]' package. Please check your configuration.
+2022-03-15 10:38:44.995  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 10:38:44.995  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 10:38:44.996  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 10:38:45.045  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 10:38:45.045  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 493 ms
+2022-03-15 10:38:45.116  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 10:38:45.134  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 10:38:45.276  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 10:38:45.297  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 10:38:45.298  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 0.809 seconds (JVM running for 478.543)
+2022-03-15 10:38:45.300  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 10:38:45.301  INFO 2700 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 10:38:45.302  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 10:38:45.307  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-03-15 10:38:49.445  INFO 2700 --- [Thread-20] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 10:38:50.820  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 10:38:50.820  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 10:38:51.339  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 10:38:51.340  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 10:38:51.340  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 10:38:51.374  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 10:38:51.374  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 549 ms
+2022-03-15 10:38:53.922  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 10:38:54.242  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 10:38:54.465  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 10:38:54.480  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 10:38:54.481  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 3.706 seconds (JVM running for 487.727)
+2022-03-15 10:38:54.482  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 10:38:54.745  INFO 2700 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 10:38:54.746  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 10:38:54.752  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2022-03-15 10:38:54.755  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:38:54.760  INFO 2700 --- [http-nio-8102-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-03-15 10:38:54.779  INFO 2700 --- [http-nio-8102-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-03-15 10:38:54.785  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:38:54.886  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:38:54.900  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:01.987  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:39:01.989  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:39:02.073  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:02.079  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:45.665  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.index', args=[{}, 1, {}]}
+2022-03-15 10:39:45.782  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : index
+2022-03-15 10:39:45.967  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:45.974  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:47.087  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/types/-1', ip='127.0.0.1', classMethod='com.sky.controller.TypeShowController.types', args=[1, -1, {}]}
+2022-03-15 10:39:47.104  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : types
+2022-03-15 10:39:47.250  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:47.267  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:48.630  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:39:48.637  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:39:48.718  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:48.724  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:52.574  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/message', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.message', args=[]}
+2022-03-15 10:39:52.576  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : message
+2022-03-15 10:39:52.628  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:52.633  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:52.654  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.messages', args=[{}]}
+2022-03-15 10:39:52.670  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : message::messageList
+2022-03-15 10:39:53.939  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:39:53.940  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:39:54.015  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:54.021  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:55.129  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='127.0.0.1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 10:39:55.132  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 10:39:55.180  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:55.184  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:39:56.803  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:39:56.806  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:39:56.877  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:39:56.882  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:48:24.353  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 10:48:24.356  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 10:48:24.603  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:48:24.611  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:48:43.841  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:48:43.850  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:48:43.933  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:48:43.938  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:49:38.157  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:49:38.168  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:49:40.585  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:49:40.594  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:50:01.311  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:50:01.314  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:50:02.923  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:50:02.935  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:50:13.640  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:50:13.642  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:50:15.402  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:50:15.411  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:50:27.106  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:50:27.110  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:50:29.295  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:50:29.303  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:50:39.532  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:50:39.534  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:50:41.468  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:50:41.481  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:50:45.603  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:50:45.605  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:50:46.113  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:50:46.125  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:51:58.922  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:51:58.924  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:52:00.425  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:52:00.454  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:52:07.094  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:52:07.097  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:52:07.169  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:52:07.177  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:52:07.974  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:52:07.985  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:52:57.174  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:52:57.177  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:52:59.063  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:52:59.073  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:53:17.366  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:53:17.369  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:53:17.940  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:53:17.953  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:53:20.048  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:53:20.050  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:53:20.510  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:53:20.516  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:55:14.866  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:55:14.868  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:55:16.407  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:55:16.417  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:55:22.869  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:55:22.872  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:55:24.238  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:55:24.243  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:55:34.091  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:55:34.094  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:55:35.596  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:55:35.606  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:56:08.938  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:56:08.940  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:56:10.564  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:56:10.604  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:56:26.677  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:56:26.679  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:56:28.443  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:56:28.449  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:56:47.633  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:56:47.636  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:56:56.423  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:56:56.427  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:57:11.647  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:57:11.654  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:57:13.030  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:57:13.043  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:58:31.631  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:58:31.633  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:58:33.291  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:58:33.295  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:59:22.310  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:59:22.312  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:59:23.767  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:59:23.773  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:59:34.568  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:59:34.569  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:59:34.572 ERROR 2700 --- [http-nio-8102-exec-5] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8102-exec-5] Exception processing template "archives": An error happened during template parsing (template: "class path resource [templates/archives.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "|background:url(' + @{/image/36.jpg} + ');'" (template: "archives" - line 13, col 72)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "|background:url(' + @{/image/36.jpg} + ');'" (template: "archives" - line 13, col 72)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+
+2022-03-15 10:59:34.573 ERROR 2700 --- [http-nio-8102-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "|background:url(' + @{/image/36.jpg} + ');'" (template: "archives" - line 13, col 72)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022-03-15 10:59:35.938  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:59:35.943  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 10:59:49.115  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 10:59:49.117  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 10:59:50.473  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 10:59:50.477  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:00:02.478  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:00:02.479  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:00:04.887  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:00:04.891  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:00:13.053  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:00:13.055  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:00:14.024  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:00:14.037  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:00:27.699  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:00:27.701  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:00:29.220  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:00:29.227  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:00:53.634  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:00:53.641  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:00:56.885  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:00:56.890  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:02:04.733  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:02:04.735  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:02:06.296  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:02:06.307  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:02:56.748  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:02:56.751  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:02:58.471  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:02:58.502  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:07.458  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.index', args=[{}, 1, {}]}
+2022-03-15 11:03:07.476  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : index
+2022-03-15 11:03:07.601  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:07.607  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:11.972  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/userSignIn', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.SignController.signIn', args=[Sky, 123456, org.apache.catalina.session.StandardSessionFacade@28ed9d37]}
+2022-03-15 11:03:11.978  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : [success]
+2022-03-15 11:03:13.038  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.index', args=[{}, 1, {}]}
+2022-03-15 11:03:13.052  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : index
+2022-03-15 11:03:13.315  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:13.321  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:14.577  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.TypeShowController.types', args=[1, -1, {}]}
+2022-03-15 11:03:14.582  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : types
+2022-03-15 11:03:14.660  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:14.664  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:16.046  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:03:16.047  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:03:16.127  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:16.132  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:16.730  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/message', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.message', args=[]}
+2022-03-15 11:03:16.730  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : message
+2022-03-15 11:03:16.793  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:16.797  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:16.833  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.messages', args=[{}]}
+2022-03-15 11:03:16.840  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : message::messageList
+2022-03-15 11:03:18.242  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 11:03:18.251  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 11:03:18.325  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:18.330  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:03:23.368  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:03:23.368  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:03:23.423  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:03:23.428  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:17:14.217  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:17:14.217  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:17:14.324  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:17:14.358  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:18:10.954  INFO 2700 --- [Thread-25] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:18:10.956  INFO 2700 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-03-15 11:18:10.973  INFO 2700 --- [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-03-15 11:18:12.029  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:18:12.030  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:18:12.571  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:18:12.571  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:18:12.572  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:18:12.626  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:18:12.626  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 594 ms
+2022-03-15 11:18:13.285  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:18:13.355  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:18:13.725  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:18:13.742  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:18:13.742  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.75 seconds (JVM running for 2846.988)
+2022-03-15 11:18:13.745  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:18:13.746  INFO 2700 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 11:18:13.747  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 11:18:13.755  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-03-15 11:18:13.757  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:18:13.759  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:18:13.895  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:18:13.899  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-03-15 11:18:13.908  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-03-15 11:18:13.922  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:19:36.234  INFO 2700 --- [Thread-30] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:19:36.234  INFO 2700 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-03-15 11:19:36.239  INFO 2700 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-03-15 11:19:37.123  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:19:37.123  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:19:37.511  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:19:37.511  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:19:37.511  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:19:37.548  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:19:37.548  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 422 ms
+2022-03-15 11:19:38.034  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:19:38.098  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:19:38.561  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:19:38.582  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:19:38.585  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.508 seconds (JVM running for 2931.831)
+2022-03-15 11:19:38.585  INFO 2700 --- [http-nio-8102-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 11:19:38.586  INFO 2700 --- [http-nio-8102-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 11:19:38.590  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:19:38.598  INFO 2700 --- [http-nio-8102-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2022-03-15 11:19:38.601  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:19:38.604  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:19:38.724  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:19:38.727  INFO 2700 --- [http-nio-8102-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-03-15 11:19:38.731  INFO 2700 --- [http-nio-8102-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-03-15 11:19:38.741  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:19:45.914  INFO 2700 --- [Thread-35] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:19:45.915  INFO 2700 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-03-15 11:19:45.922  INFO 2700 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-03-15 11:19:46.858  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:19:46.858  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:19:47.228  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:19:47.228  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:19:47.229  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:19:47.257  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:19:47.258  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 397 ms
+2022-03-15 11:19:47.539  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:19:47.592  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:19:47.844  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:19:47.856  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:19:47.857  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.032 seconds (JVM running for 2941.103)
+2022-03-15 11:19:47.858  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:19:47.861  INFO 2700 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 11:19:47.861  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 11:19:47.869  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-03-15 11:19:47.871  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:19:47.873  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:19:47.965  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:19:47.968  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-03-15 11:19:47.971  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-03-15 11:19:47.980  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:19:59.470  INFO 2700 --- [Thread-40] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:19:59.470  INFO 2700 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-03-15 11:19:59.472  INFO 2700 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-03-15 11:20:00.345  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:20:00.346  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:20:00.777  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:20:00.778  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:20:00.778  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:20:00.805  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:20:00.805  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 456 ms
+2022-03-15 11:20:01.066  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:20:01.102  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:20:01.357  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:20:01.374  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:20:01.375  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.072 seconds (JVM running for 2954.621)
+2022-03-15 11:20:01.376  INFO 2700 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 11:20:01.377  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 11:20:01.379  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:20:01.385  INFO 2700 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-03-15 11:20:01.388  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:20:01.390  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:20:01.472  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:20:01.475  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-03-15 11:20:01.478  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-03-15 11:20:01.486  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:20:09.330  INFO 2700 --- [Thread-45] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:20:09.330  INFO 2700 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-03-15 11:20:09.333  INFO 2700 --- [Thread-45] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-03-15 11:20:10.306  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:20:10.306  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:20:10.708  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:20:10.708  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:20:10.708  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:20:10.738  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:20:10.738  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 430 ms
+2022-03-15 11:20:11.076  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:20:11.135  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:20:11.475  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:20:11.500  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:20:11.502  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.232 seconds (JVM running for 2964.749)
+2022-03-15 11:20:11.502  INFO 2700 --- [http-nio-8102-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 11:20:11.503  INFO 2700 --- [http-nio-8102-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 11:20:11.507  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:20:11.516  INFO 2700 --- [http-nio-8102-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2022-03-15 11:20:11.519  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:20:11.522  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:20:11.664  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:20:11.668  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-03-15 11:20:11.677  INFO 2700 --- [http-nio-8102-exec-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-03-15 11:20:11.683  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:10.472  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.index', args=[{}, 1, {}]}
+2022-03-15 11:21:10.496  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : index
+2022-03-15 11:21:10.605  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:10.610  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:12.024  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.TypeShowController.types', args=[1, -1, {}]}
+2022-03-15 11:21:12.040  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : types
+2022-03-15 11:21:12.113  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:12.118  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:13.672  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/types/60', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.TypeShowController.types', args=[1, 60, {}]}
+2022-03-15 11:21:13.675  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : types
+2022-03-15 11:21:13.765  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:13.770  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:14.449  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/types/61', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.TypeShowController.types', args=[1, 61, {}]}
+2022-03-15 11:21:14.450  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : types
+2022-03-15 11:21:14.529  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:14.539  INFO 2700 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:15.988  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-15 11:21:15.992  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-15 11:21:16.087  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:16.092  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:18.681  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/blog/78', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blog', args=[78, {}]}
+2022-03-15 11:21:18.762  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : blog
+2022-03-15 11:21:18.824 ERROR 2700 --- [http-nio-8102-exec-6] c.sky.hander.ControllerExceptionHandler  : Requst URL : http://localhost:8102/blog/%E6%88%90%E5%93%81.jpg，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "成品.jpg"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "成品.jpg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-03-15 11:21:18.824 ERROR 2700 --- [http-nio-8102-exec-10] c.sky.hander.ControllerExceptionHandler  : Requst URL : http://localhost:8102/blog/%E8%85%8C%E5%88%B6.jpg，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-03-15 11:21:18.824  WARN 2700 --- [http-nio-8102-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "成品.jpg"]
+2022-03-15 11:21:18.824  WARN 2700 --- [http-nio-8102-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"]
+2022-03-15 11:21:19.188  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:19.199  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:24.181  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/message', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.message', args=[]}
+2022-03-15 11:21:24.184  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : message
+2022-03-15 11:21:24.304  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:24.355  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.messages', args=[{}]}
+2022-03-15 11:21:24.356  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:24.365  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : message::messageList
+2022-03-15 11:21:27.149  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-15 11:21:27.162  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-15 11:21:27.259  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:27.264  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:28.684  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-15 11:21:28.684  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about
+2022-03-15 11:21:28.737  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:28.742  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:30.921  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/userInfo', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.UserInfoController.userInfo', args=[org.apache.catalina.session.StandardSessionFacade@68cba50d]}
+2022-03-15 11:21:30.923  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : userInfo
+2022-03-15 11:21:30.998  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:31.002  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:42.685  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:42.688  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:44.213  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:44.218  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:45.416  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:45.421  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:48.071  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:48.076  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:50.813  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:50.819  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:52.562  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:52.567  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:55.103  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:55.109  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:57.524  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:57.534  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:21:58.717  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:21:58.727  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:22:00.637  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:22:00.642  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:22:01.822  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:22:01.827  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:22:33.254  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/userInfo', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.UserInfoController.userInfo', args=[org.apache.catalina.session.StandardSessionFacade@68cba50d]}
+2022-03-15 11:22:33.255  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : userInfo
+2022-03-15 11:22:33.322  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:22:33.327  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:16.510  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/userInfo', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.UserInfoController.userInfo', args=[org.apache.catalina.session.StandardSessionFacade@68cba50d]}
+2022-03-15 11:23:16.510  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : userInfo
+2022-03-15 11:23:16.710  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:16.719  INFO 2700 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:19.182  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:19.187  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:23.528  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:23.536  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:25.100  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:25.105  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:26.677  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:26.682  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:34.756  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:34.761  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:23:48.399  WARN 2700 --- [http-nio-8102-exec-7] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2022-03-15 11:23:48.868  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:23:48.873  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:25:59.689  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:25:59.738  INFO 2700 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:26:11.718  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:26:11.722  INFO 2700 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:26:24.396  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:26:24.402  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:26:27.741  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:26:27.746  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:26:28.737  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:26:28.741  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:26:32.015  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:26:32.020  INFO 2700 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:26:38.925  WARN 2700 --- [http-nio-8102-exec-2] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2022-03-15 11:26:39.016  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:26:39.020  INFO 2700 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:27:37.888  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:27:37.892  INFO 2700 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:27:41.328  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:27:41.333  INFO 2700 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:27:43.552  WARN 2700 --- [http-nio-8102-exec-9] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2022-03-15 11:27:44.037  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:27:44.042  INFO 2700 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:28:04.636  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='127.0.0.1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 11:28:04.639  INFO 2700 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 11:33:33.986  INFO 2700 --- [Thread-50] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:33:33.986  INFO 2700 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-03-15 11:33:33.990  INFO 2700 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-03-15 11:33:35.169  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:33:35.169 DEBUG 2700 --- [restartedMain] com.sky.MyblogApplication                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2022-03-15 11:33:35.169  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:33:35.707  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:33:35.708  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:33:35.708  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:33:35.743  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:33:35.743  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 570 ms
+2022-03-15 11:33:36.037  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:33:36.075  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:33:36.301  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:33:36.314  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:33:36.315  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.195 seconds (JVM running for 3769.561)
+2022-03-15 11:33:36.315  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:39:14.569  INFO 2700 --- [Thread-55] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:39:15.700  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:39:15.700 DEBUG 2700 --- [restartedMain] com.sky.MyblogApplication                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2022-03-15 11:39:15.700  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:39:16.198  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:39:16.199  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:39:16.199  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:39:16.231  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:39:16.231  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 489 ms
+2022-03-15 11:39:16.519  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:39:16.561  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:39:16.808  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:39:16.820  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:39:16.820  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.186 seconds (JVM running for 4110.067)
+2022-03-15 11:39:16.821  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:44:31.892  INFO 2700 --- [Thread-60] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:44:32.765  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2700 (started by polo in D:\真文档\Graduation thesis\参考项目\sky_blog)
+2022-03-15 11:44:32.765 DEBUG 2700 --- [restartedMain] com.sky.MyblogApplication                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2022-03-15 11:44:32.766  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 11:44:33.123  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 11:44:33.123  INFO 2700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 11:44:33.123  INFO 2700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 11:44:33.154  INFO 2700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 11:44:33.154  INFO 2700 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 385 ms
+2022-03-15 11:44:33.499  INFO 2700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 11:44:33.556  INFO 2700 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 11:44:33.892  INFO 2700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 11:44:33.906  INFO 2700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 11:44:33.906  INFO 2700 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 1.172 seconds (JVM running for 4427.152)
+2022-03-15 11:44:33.907  INFO 2700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-03-15 11:44:59.598  INFO 2700 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-15 12:01:39.588  INFO 37420 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 37420 (started by polo in D:\真文档\Graduation thesis\sky_blog)
+2022-03-15 12:01:39.591 DEBUG 37420 --- [restartedMain] com.sky.MyblogApplication                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2022-03-15 12:01:39.591  INFO 37420 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: dev
+2022-03-15 12:01:39.636  INFO 37420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-15 12:01:39.636  INFO 37420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-15 12:01:41.053  INFO 37420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8102 (http)
+2022-03-15 12:01:41.061  INFO 37420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-15 12:01:41.061  INFO 37420 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-03-15 12:01:41.158  INFO 37420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-15 12:01:41.158  INFO 37420 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1521 ms
+2022-03-15 12:01:41.859  INFO 37420 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-15 12:01:41.948  INFO 37420 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-15 12:01:42.274  INFO 37420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-03-15 12:01:42.313  INFO 37420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8102 (http) with context path ''
+2022-03-15 12:01:42.316  INFO 37420 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 3.327 seconds (JVM running for 4.971)
+2022-03-15 12:02:19.320  INFO 37420 --- [http-nio-8102-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-15 12:02:19.320  INFO 37420 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-15 12:02:19.328  INFO 37420 --- [http-nio-8102-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2022-03-15 12:02:19.359  INFO 37420 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/search', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.search', args=[{}, 1, q]}
+2022-03-15 12:02:19.388  INFO 37420 --- [http-nio-8102-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-15 12:02:19.517  INFO 37420 --- [http-nio-8102-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-15 12:02:19.573 DEBUG 37420 --- [http-nio-8102-exec-1] com.sky.dao.BlogDao.getSearchBlog_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b, sky_blog.t_type t, sky_blog.t_user u WHERE b.type_id = t.id AND u.id = b.user_id AND (b.title LIKE ? OR b.content LIKE ?) 
+2022-03-15 12:02:19.594 DEBUG 37420 --- [http-nio-8102-exec-1] com.sky.dao.BlogDao.getSearchBlog_COUNT  : ==> Parameters: %q%(String), %q%(String)
+2022-03-15 12:02:19.625 DEBUG 37420 --- [http-nio-8102-exec-1] com.sky.dao.BlogDao.getSearchBlog_COUNT  : <==      Total: 1
+2022-03-15 12:02:19.627 DEBUG 37420 --- [http-nio-8102-exec-1] com.sky.dao.BlogDao.getSearchBlog        : ==>  Preparing: select b.id,b.title,b.first_picture, b.views,b.comment_count,b.update_time,b.description, b.type_id,t.name , u.nickname, u.avatar from sky_blog.t_blog b, sky_blog.t_type t,sky_blog.t_user u where b.type_id = t.id and u.id = b.user_id and (b.title like ? or b.content like ?) order by b.update_time desc LIMIT ? 
+2022-03-15 12:02:19.628 DEBUG 37420 --- [http-nio-8102-exec-1] com.sky.dao.BlogDao.getSearchBlog        : ==> Parameters: %q%(String), %q%(String), 10(Integer)
+2022-03-15 12:02:19.635 DEBUG 37420 --- [http-nio-8102-exec-1] com.sky.dao.BlogDao.getSearchBlog        : <==      Total: 10
+2022-03-15 12:02:19.637  INFO 37420 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : search
+2022-03-15 12:02:20.116  INFO 37420 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 12:02:20.117 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-15 12:02:20.118 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-15 12:02:20.121 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-15 12:02:20.122 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-15 12:02:20.122 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-15 12:02:20.124 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-15 12:02:20.124 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-15 12:02:20.125 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-15 12:02:20.131 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-15 12:02:20.132 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-15 12:02:20.133 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-15 12:02:20.136 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-15 12:02:20.136  INFO 37420 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 12:02:23.378  INFO 37420 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/blog/66', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blog', args=[66, {}]}
+2022-03-15 12:02:23.380 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getDetailedBlog      : ==>  Preparing: select b.id bid,b.first_picture,b.flag,b.title,b.content,b.views,b.comment_count,b.update_time,b.commentabled,u.nickname,u.avatar,t.name from sky_blog.t_blog b,sky_blog.t_user u, sky_blog.t_type t where b.user_id = u.id and b.type_id = t.id and b.id = ? 
+2022-03-15 12:02:23.380 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getDetailedBlog      : ==> Parameters: 66(Long)
+2022-03-15 12:02:23.383 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getDetailedBlog      : <==      Total: 1
+2022-03-15 12:02:23.415 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.updateViews          : ==>  Preparing: update sky_blog.t_blog b set b.views = b.views+1 where b.id = ? 
+2022-03-15 12:02:23.415 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.updateViews          : ==> Parameters: 66(Long)
+2022-03-15 12:02:23.427 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.updateViews          : <==    Updates: 1
+2022-03-15 12:02:23.428 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getCommentCountById  : ==>  Preparing: update sky_blog.t_blog b set b.comment_count = ( select count(*) from sky_blog.t_comment c where c.blog_id = ? and b.id = ? ) WHERE b.id = ? 
+2022-03-15 12:02:23.428 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getCommentCountById  : ==> Parameters: 66(Long), 66(Long), 66(Long)
+2022-03-15 12:02:23.431 DEBUG 37420 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getCommentCountById  : <==    Updates: 1
+2022-03-15 12:02:23.433 DEBUG 37420 --- [http-nio-8102-exec-7] c.s.d.C.findByBlogIdParentIdNull         : ==>  Preparing: select * from sky_blog.t_comment c where c.blog_id = ? and c.parent_comment_id = ? order by c.create_time desc 
+2022-03-15 12:02:23.433 DEBUG 37420 --- [http-nio-8102-exec-7] c.s.d.C.findByBlogIdParentIdNull         : ==> Parameters: 66(Long), -1(Long)
+2022-03-15 12:02:23.434 DEBUG 37420 --- [http-nio-8102-exec-7] c.s.d.C.findByBlogIdParentIdNull         : <==      Total: 0
+2022-03-15 12:02:23.435  INFO 37420 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : blog
+2022-03-15 12:02:23.560 ERROR 37420 --- [http-nio-8102-exec-5] c.sky.hander.ControllerExceptionHandler  : Requst URL : http://localhost:8102/blog/%E6%88%90%E5%93%81.jpg，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "成品.jpg"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "成品.jpg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-03-15 12:02:23.560 ERROR 37420 --- [http-nio-8102-exec-8] c.sky.hander.ControllerExceptionHandler  : Requst URL : http://localhost:8102/blog/%E8%85%8C%E5%88%B6.jpg，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-03-15 12:02:23.561  WARN 37420 --- [http-nio-8102-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"]
+2022-03-15 12:02:23.561  WARN 37420 --- [http-nio-8102-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "成品.jpg"]
+2022-03-15 12:02:23.917  INFO 37420 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-15 12:02:23.918 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-15 12:02:23.918 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-15 12:02:23.920 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-15 12:02:23.921 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-15 12:02:23.921 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-15 12:02:23.922 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-15 12:02:23.923 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-15 12:02:23.923 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-15 12:02:23.924 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-15 12:02:23.925 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-15 12:02:23.926 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-15 12:02:23.929 DEBUG 37420 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-15 12:02:23.930  INFO 37420 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-15 12:02:23.948  INFO 37420 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/comments/66', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.CommentController.comments', args=[66, {}]}
+2022-03-15 12:02:23.952 DEBUG 37420 --- [http-nio-8102-exec-3] c.s.d.C.findByBlogIdParentIdNull         : ==>  Preparing: select * from sky_blog.t_comment c where c.blog_id = ? and c.parent_comment_id = ? order by c.create_time desc 
+2022-03-15 12:02:23.953 DEBUG 37420 --- [http-nio-8102-exec-3] c.s.d.C.findByBlogIdParentIdNull         : ==> Parameters: 66(Long), -1(Long)
+2022-03-15 12:02:23.954 DEBUG 37420 --- [http-nio-8102-exec-3] c.s.d.C.findByBlogIdParentIdNull         : <==      Total: 0
+2022-03-15 12:02:23.954  INFO 37420 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : blog :: commentList

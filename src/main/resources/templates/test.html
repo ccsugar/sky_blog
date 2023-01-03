@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css" th:href="@{/css/me.css}">
+    <link href="../static/images/favicon.ico" th:href="@{/images/favicon.ico}" rel="icon" type="image/x-ico">
+</head>
+<body>
+    <div class="ui menu">
+        <div class="ui pointing dropdown link item">
+          <span class="text">Shopp0ing</span>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="header">Categories</div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Clothing</span>
+              <div class="menu">
+                <div class="header">Mens</div>
+                <div class="item">Shirts</div>
+                <div class="item">Pants</div>
+                <div class="item">Jeans</div>
+                <div class="item">Shoes</div>
+                <div class="divider"></div>
+                <div class="header">Womens</div>
+                <div class="item">Dresses</div>
+                <div class="item">Shoes</div>
+                <div class="item">Bags</div>
+              </div>
+            </div>
+            <div class="item">Home Goods</div>
+            <div class="item">Bedroom</div>
+            <div class="divider"></div>
+            <div class="header">Order</div>
+            <div class="item">Status</div>
+            <div class="item">Cancellations</div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $(".ui.dropdown").dropdown({
+        on: 'hover',
+        action: 'select'
+    })
+</script>
+</html>

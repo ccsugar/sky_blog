@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sky.dao.UserDao">
+
+    <insert id="saveUser" parameterType="com.sky.entity.User">
+        insert into sky_blog.t_user(id,avatar,create_time,update_time,  email, nickname, password, type, username)
+        VALUES (#{id},#{avatar},#{createTime},#{updateTime},#{email},#{nickname},#{password},#{type},#{username})
+    </insert>
+
+    <update id="updateUserBaseinfo" parameterType="com.sky.queryvo.UserBaseinfo">
+        update sky_blog.t_user
+        set nickname=#{nickname},email=#{email},avatar=#{avatar}
+        where id=#{id}
+    </update>
+
+    <update id="updataUserPassword">
+        update sky_blog.t_user
+        set password=#{userPassword}
+        where id=#{id}
+    </update>
+
+    <!--查询用户名和密码-->
+    <select id="findByUsernameAndPassword" resultType="com.sky.entity.User">
+        select * from sky_blog.t_user
+        where username = #{username} and password = #{password};
+    </select>
+
+    <select id="findByUsername" resultType="com.sky.entity.User">
+        select * from sky_blog.t_user
+        where username =#{username}
+    </select>
+
+    <select id="findByNickname" resultType="com.sky.entity.User">
+        select * from sky_blog.t_user
+        where nickname =#{nickname}
+    </select>
+
+    <select id="findByOtherNickname" resultType="com.sky.entity.User">
+        select * from sky_blog.t_user
+        where nickname =#{nickname} and id != #{id}
+    </select>
+
+    <select id="getUserById" resultType="com.sky.entity.User">
+        select * from sky_blog.t_user
+        where id =#{id}
+    </select>
+
+</mapper>

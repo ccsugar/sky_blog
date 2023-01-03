@@ -1,0 +1,331 @@
+2022-03-19 00:05:11.700 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogById          : ==>  Preparing: select b.id,b.flag,b.title,b.content,b.type_id, b.first_picture,b.description,b.recommend,b.published,b.commentabled from sky_blog.t_blog b where b.id = ?; 
+2022-03-19 00:05:11.720 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogById          : ==> Parameters: 68(Long)
+2022-03-19 00:05:11.722 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogById          : <==      Total: 1
+2022-03-19 00:05:11.727 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:11.727 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:11.729 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:11.865  INFO 21344 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:11.865 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:11.865 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:11.869 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:11.869 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:11.869 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:11.870 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:11.870 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:11.870 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:11.872 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:11.872 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:11.873 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:11.874 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:11.874  INFO 21344 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 00:05:12.579 DEBUG 21344 --- [http-nio-8102-exec-9] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 00:05:12.579 DEBUG 21344 --- [http-nio-8102-exec-9] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 00:05:12.580 DEBUG 21344 --- [http-nio-8102-exec-9] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 00:05:12.582 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 00:05:12.582 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 00:05:12.583 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 5
+2022-03-19 00:05:12.583 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:12.583 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:12.583 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:12.661  INFO 21344 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:12.661 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:12.661 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:12.663 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:12.663 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:12.663 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:12.664 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:12.664 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:12.664 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:12.668 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:12.668 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:12.668 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:12.674 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:12.674  INFO 21344 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 00:05:13.116 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:13.116 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:13.117 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:13.183  INFO 21344 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:13.184 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:13.184 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:13.185 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:13.185 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:13.185 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:13.186 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:13.186 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:13.186 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:13.187 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:13.187 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:13.187 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:13.188 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:13.188  INFO 21344 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 00:05:14.223 DEBUG 21344 --- [http-nio-8102-exec-4] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 00:05:14.223 DEBUG 21344 --- [http-nio-8102-exec-4] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 00:05:14.224 DEBUG 21344 --- [http-nio-8102-exec-4] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 00:05:14.226 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 00:05:14.227 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 00:05:14.230 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 5
+2022-03-19 00:05:14.230 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:14.231 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:14.231 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:14.306  INFO 21344 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:14.306 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:14.306 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:14.308 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:14.309 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:14.309 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:14.309 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:14.309 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:14.309 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:14.315 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:14.316 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:14.316 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:14.317 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:14.317  INFO 21344 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 00:05:14.649 DEBUG 21344 --- [http-nio-8102-exec-1] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:14.649 DEBUG 21344 --- [http-nio-8102-exec-1] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:14.649 DEBUG 21344 --- [http-nio-8102-exec-1] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:14.716  INFO 21344 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:14.716 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:14.716 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:14.717 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:14.718 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:14.718 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:14.718 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:14.718 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:14.718 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:14.719 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:14.720 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:14.720 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:14.721 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:14.721  INFO 21344 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 00:05:31.344 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:31.344 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:31.344 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:31.426  INFO 21344 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:31.426 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:31.426 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:31.428 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:31.428 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:31.428 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:31.429 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:31.429 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:31.429 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:31.430 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:31.431 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:31.431 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:31.432 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:31.432  INFO 21344 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 00:05:32.470 DEBUG 21344 --- [http-nio-8102-exec-6] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 00:05:32.470 DEBUG 21344 --- [http-nio-8102-exec-6] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 00:05:32.471 DEBUG 21344 --- [http-nio-8102-exec-6] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 00:05:32.472 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 00:05:32.472 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 00:05:32.473 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 5
+2022-03-19 00:05:32.473 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 00:05:32.473 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 00:05:32.474 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 00:05:32.530  INFO 21344 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 00:05:32.530 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 00:05:32.530 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 00:05:32.531 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 00:05:32.531 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 00:05:32.531 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 00:05:32.532 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 00:05:32.532 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 00:05:32.532 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 00:05:32.533 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 00:05:32.533 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 00:05:32.533 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 00:05:32.534 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 00:05:32.534  INFO 21344 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 10:33:24.873  WARN 21344 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10h25m28s113ms34µs900ns).
+2022-03-19 10:35:44.224 DEBUG 21344 --- [http-nio-8102-exec-3] c.s.d.UserDao.findByUsernameAndPassword  : ==>  Preparing: select * from sky_blog.t_user where username = ? and password = ?; 
+2022-03-19 10:35:44.224 DEBUG 21344 --- [http-nio-8102-exec-3] c.s.d.UserDao.findByUsernameAndPassword  : ==> Parameters: Sky(String), e10adc3949ba59abbe56e057f20f883e(String)
+2022-03-19 10:35:44.230 DEBUG 21344 --- [http-nio-8102-exec-3] c.s.d.UserDao.findByUsernameAndPassword  : <==      Total: 1
+2022-03-19 10:35:44.238 DEBUG 21344 --- [http-nio-8102-exec-10] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 10:35:44.238 DEBUG 21344 --- [http-nio-8102-exec-10] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 10:35:44.242 DEBUG 21344 --- [http-nio-8102-exec-10] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 10:35:44.244 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 10:35:44.244 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 10:35:44.245 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 5
+2022-03-19 10:35:44.246 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 10:35:44.246 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 10:35:44.247 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 10:35:44.469  INFO 21344 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 10:35:44.470 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 10:35:44.470 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 10:35:44.473 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 10:35:44.473 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 10:35:44.473 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 10:35:44.474 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 10:35:44.474 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 10:35:44.475 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 10:35:44.486 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 10:35:44.486 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 10:35:44.486 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 10:35:44.490 DEBUG 21344 --- [http-nio-8102-exec-9] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 10:35:44.490  INFO 21344 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 10:35:45.566 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 10:35:45.566 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 10:35:45.567 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 10:35:45.793  INFO 21344 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 10:35:45.794 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 10:35:45.794 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 10:35:45.799 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 10:35:45.799 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 10:35:45.799 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 10:35:45.800 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 10:35:45.801 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 10:35:45.801 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 10:35:45.811 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 10:35:45.811 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 10:35:45.811 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 10:35:45.816 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 10:35:45.816  INFO 21344 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 11:02:29.858 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.BlogDao.getBlogById          : ==>  Preparing: select b.id,b.flag,b.title,b.content,b.type_id, b.first_picture,b.description,b.recommend,b.published,b.commentabled from sky_blog.t_blog b where b.id = ?; 
+2022-03-19 11:02:29.864 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.BlogDao.getBlogById          : ==> Parameters: 66(Long)
+2022-03-19 11:02:29.866 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.BlogDao.getBlogById          : <==      Total: 1
+2022-03-19 11:02:29.867 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 11:02:29.867 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 11:02:29.868 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 11:02:29.986  INFO 21344 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 11:02:29.987 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 11:02:29.987 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 11:02:29.993 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 11:02:29.994 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 11:02:29.994 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 11:02:29.997 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 11:02:29.997 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 11:02:29.997 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 11:02:30.002 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 11:02:30.002 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 11:02:30.002 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 11:02:30.004 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 11:02:30.004  INFO 21344 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 11:26:02.686 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogById          : ==>  Preparing: select b.id,b.flag,b.title,b.content,b.type_id, b.first_picture,b.description,b.recommend,b.published,b.commentabled from sky_blog.t_blog b where b.id = ?; 
+2022-03-19 11:26:02.687 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogById          : ==> Parameters: 71(Long)
+2022-03-19 11:26:02.690 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.BlogDao.getBlogById          : <==      Total: 1
+2022-03-19 11:26:02.690 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 11:26:02.690 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 11:26:02.692 DEBUG 21344 --- [http-nio-8102-exec-8] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 11:26:02.784  INFO 21344 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 11:26:02.785 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 11:26:02.785 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 11:26:02.787 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 11:26:02.787 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 11:26:02.787 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 11:26:02.787 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 11:26:02.788 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 11:26:02.788 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 11:26:02.793 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 11:26:02.793 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 11:26:02.793 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 11:26:02.795 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 11:26:02.796  INFO 21344 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 11:36:31.975 DEBUG 21344 --- [http-nio-8102-exec-4] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 11:36:31.975 DEBUG 21344 --- [http-nio-8102-exec-4] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 11:36:31.983 DEBUG 21344 --- [http-nio-8102-exec-4] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 11:36:31.986 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 11:36:31.987 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 11:36:31.988 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 5
+2022-03-19 11:36:31.989 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 11:36:31.989 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 11:36:31.990 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 11:36:32.117  INFO 21344 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 11:36:32.118 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 11:36:32.118 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 11:36:32.120 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 11:36:32.120 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 11:36:32.120 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 11:36:32.121 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 11:36:32.121 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 11:36:32.121 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 11:36:32.124 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 11:36:32.125 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 11:36:32.125 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 11:36:32.128 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 11:36:32.128  INFO 21344 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 11:36:33.392 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 11:36:33.392 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 11:36:33.393 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 11:36:33.471  INFO 21344 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 11:36:33.471 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 11:36:33.471 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 11:36:33.479 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 11:36:33.479 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 11:36:33.479 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 11:36:33.480 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 11:36:33.480 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 11:36:33.480 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 11:36:33.484 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 11:36:33.484 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 11:36:33.484 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 11:36:33.487 DEBUG 21344 --- [http-nio-8102-exec-6] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 11:36:33.487  INFO 21344 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 11:36:39.814 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getType              : ==>  Preparing: select id,name from sky_blog.t_type where id = ? 
+2022-03-19 11:36:39.814 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getType              : ==> Parameters: 59(Long)
+2022-03-19 11:36:39.815 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.TypeDao.getType              : <==      Total: 1
+2022-03-19 11:36:39.816 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.BlogDao.saveBlog             : ==>  Preparing: insert into sky_blog.t_blog (id,title, content, first_picture, flag, views, comment_count,commentabled, published, recommend, create_time, update_time, type_id, user_id, description) values (?,?,?,?,?,?,?,?,?,?,?, ?,?,?,?); 
+2022-03-19 11:36:39.825 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.BlogDao.saveBlog             : ==> Parameters: null, 我(String), 我(String), 我(String), 原创(String), 0(Integer), 0(Integer), false(Boolean), false(Boolean), false(Boolean), 2022-03-19 11:36:39.815(Timestamp), 2022-03-19 11:36:39.815(Timestamp), 59(Long), 1(Long), 我(String)
+2022-03-19 11:36:39.839 DEBUG 21344 --- [http-nio-8102-exec-3] com.sky.dao.BlogDao.saveBlog             : <==    Updates: 1
+2022-03-19 11:36:39.847 DEBUG 21344 --- [http-nio-8102-exec-10] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 11:36:39.847 DEBUG 21344 --- [http-nio-8102-exec-10] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 11:36:39.847 DEBUG 21344 --- [http-nio-8102-exec-10] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 11:36:39.849 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 11:36:39.849 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 11:36:39.852 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 6
+2022-03-19 11:36:39.853 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 11:36:39.853 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 11:36:39.853 DEBUG 21344 --- [http-nio-8102-exec-10] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 11:36:39.955  INFO 21344 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 11:36:39.959 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogTotal_COUNT   : ==>  Preparing: SELECT count(0) FROM (SELECT count(*) FROM sky_blog.t_blog) table_count 
+2022-03-19 11:36:39.959 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogTotal_COUNT   : ==> Parameters: 
+2022-03-19 11:36:39.963 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogTotal_COUNT   : <==      Total: 1
+2022-03-19 11:36:39.963 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog LIMIT ? 
+2022-03-19 11:36:39.963 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 10000(Integer)
+2022-03-19 11:36:39.964 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 11:36:39.965 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 11:36:39.965 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 11:36:39.966 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 11:36:39.966 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 11:36:39.966 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 11:36:39.968 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 11:36:39.969 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 11:36:39.969 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 11:36:39.970 DEBUG 21344 --- [http-nio-8102-exec-7] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 11:36:39.970  INFO 21344 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 11:37:50.207 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.deleteBlog           : ==>  Preparing: delete from sky_blog.t_blog where id = ? 
+2022-03-19 11:37:50.207 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.deleteBlog           : ==> Parameters: 79(Long)
+2022-03-19 11:37:50.212 DEBUG 21344 --- [http-nio-8102-exec-5] com.sky.dao.BlogDao.deleteBlog           : <==    Updates: 1
+2022-03-19 11:37:50.221 DEBUG 21344 --- [http-nio-8102-exec-2] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id 
+2022-03-19 11:37:50.221 DEBUG 21344 --- [http-nio-8102-exec-2] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : ==> Parameters: 
+2022-03-19 11:37:50.222 DEBUG 21344 --- [http-nio-8102-exec-2] c.sky.dao.BlogDao.getAllBlogQuery_COUNT  : <==      Total: 1
+2022-03-19 11:37:50.223 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getAllBlogQuery      : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.published, b.type_id, t.id tid, t.name FROM sky_blog.t_blog b LEFT OUTER JOIN sky_blog.t_type t ON b.type_id = t.id order by update_time desc LIMIT ? 
+2022-03-19 11:37:50.223 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getAllBlogQuery      : ==> Parameters: 10(Integer)
+2022-03-19 11:37:50.225 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.BlogDao.getAllBlogQuery      : <==      Total: 5
+2022-03-19 11:37:50.236 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : ==>  Preparing: select * from sky_blog.t_type 
+2022-03-19 11:37:50.236 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : ==> Parameters: 
+2022-03-19 11:37:50.236 DEBUG 21344 --- [http-nio-8102-exec-2] com.sky.dao.TypeDao.getAllType           : <==      Total: 3
+2022-03-19 11:37:50.301  INFO 21344 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-19 11:37:50.301 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : ==>  Preparing: select count(*) from sky_blog.t_blog 
+2022-03-19 11:37:50.301 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : ==> Parameters: 
+2022-03-19 11:37:50.303 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogTotal         : <==      Total: 1
+2022-03-19 11:37:50.303 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : ==>  Preparing: select coalesce(sum(views),0) from sky_blog.t_blog 
+2022-03-19 11:37:50.303 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : ==> Parameters: 
+2022-03-19 11:37:50.304 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogViewTotal     : <==      Total: 1
+2022-03-19 11:37:50.304 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : ==>  Preparing: select count(*) from sky_blog.t_comment 
+2022-03-19 11:37:50.304 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : ==> Parameters: 
+2022-03-19 11:37:50.325 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogCommentTotal  : <==      Total: 1
+2022-03-19 11:37:50.325 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : ==>  Preparing: select count(*) from sky_blog.t_message 
+2022-03-19 11:37:50.325 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : ==> Parameters: 
+2022-03-19 11:37:50.338 DEBUG 21344 --- [http-nio-8102-exec-4] com.sky.dao.BlogDao.getBlogMessageTotal  : <==      Total: 1
+2022-03-19 11:37:50.338  INFO 21344 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-19 12:01:16.027 DEBUG 21344 --- [http-nio-8102-exec-3] d.B.searchByTitleOrTypeOrRecommend_COUNT : ==>  Preparing: SELECT count(0) FROM sky_blog.t_blog b, sky_blog.t_type t WHERE b.type_id = t.id AND b.type_id = ? AND b.title LIKE ? 
+2022-03-19 12:01:16.028 DEBUG 21344 --- [http-nio-8102-exec-3] d.B.searchByTitleOrTypeOrRecommend_COUNT : ==> Parameters: 71(Long), %做法%(String)
+2022-03-19 12:01:16.028 DEBUG 21344 --- [http-nio-8102-exec-3] d.B.searchByTitleOrTypeOrRecommend_COUNT : <==      Total: 1
+2022-03-19 12:01:16.030 DEBUG 21344 --- [http-nio-8102-exec-3] c.s.d.B.searchByTitleOrTypeOrRecommend   : ==>  Preparing: SELECT b.id, b.title, b.update_time, b.recommend, b.type_id, t.id, t.name FROM sky_blog.t_blog b, sky_blog.t_type t WHERE b.type_id = t.id AND b.type_id = ? AND b.title LIKE ? order by update_time desc LIMIT ? 
+2022-03-19 12:01:16.030 DEBUG 21344 --- [http-nio-8102-exec-3] c.s.d.B.searchByTitleOrTypeOrRecommend   : ==> Parameters: 71(Long), %做法%(String), 10(Integer)
+2022-03-19 12:01:16.031 DEBUG 21344 --- [http-nio-8102-exec-3] c.s.d.B.searchByTitleOrTypeOrRecommend   : <==      Total: 2
+2022-03-19 12:22:48.930  INFO 21344 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-19 12:22:48.938  INFO 21344 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-03-19 12:22:48.971  INFO 21344 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

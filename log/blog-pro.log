@@ -1,0 +1,214 @@
+2022-03-26 09:16:15.862  INFO 2812 --- [restartedMain] com.sky.MyblogApplication                : Starting MyblogApplication on giupo with PID 2812 (started by polo in D:\真文档\Graduation thesis\sky_blog)
+2022-03-26 09:16:15.869  INFO 2812 --- [restartedMain] com.sky.MyblogApplication                : The following profiles are active: pro
+2022-03-26 09:16:18.900  INFO 2812 --- [restartedMain] com.sky.MyblogApplication                : Started MyblogApplication in 3.729 seconds (JVM running for 5.564)
+2022-03-26 09:16:33.609  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.index', args=[{}, 1, {}]}
+2022-03-26 09:16:33.882  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : index
+2022-03-26 09:16:34.937  INFO 2812 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 09:16:34.981  INFO 2812 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 09:17:17.609  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/blog/70', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blog', args=[70, {}]}
+2022-03-26 09:17:17.690  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : blog
+2022-03-26 09:17:18.186  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 09:17:18.194  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 09:17:18.212  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/comments/70', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.CommentController.comments', args=[70, {}]}
+2022-03-26 09:17:18.218  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : blog :: commentList
+2022-03-26 09:17:22.639  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/about', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.AboutShowController.about', args=[]}
+2022-03-26 09:17:22.643  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about
+2022-03-26 09:17:22.713  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 09:17:22.719  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:14:57.212  INFO 2812 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.TypeShowController.types', args=[1, -1, {}]}
+2022-03-26 11:14:57.264  INFO 2812 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : types
+2022-03-26 11:14:57.438  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:14:57.469  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:15:06.883  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/blog/65', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blog', args=[65, {}]}
+2022-03-26 11:15:06.900  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : blog
+2022-03-26 11:15:06.974 ERROR 2812 --- [http-nio-8102-exec-9] c.sky.hander.ControllerExceptionHandler  : Requst URL : http://localhost:8102/blog/%E8%85%8C%E5%88%B6.jpg，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-03-26 11:15:06.976  WARN 2812 --- [http-nio-8102-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"]
+2022-03-26 11:15:07.510  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:15:07.529  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:15:07.535  INFO 2812 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/comments/65', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.CommentController.comments', args=[65, {}]}
+2022-03-26 11:15:07.537  INFO 2812 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : blog :: commentList
+2022-03-26 11:15:30.914  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/userSignIn', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.SignController.signIn', args=[Sky, 123456, org.apache.catalina.session.StandardSessionFacade@7a5a6551]}
+2022-03-26 11:15:30.924  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : [success]
+2022-03-26 11:15:35.083  INFO 2812 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/blog/65', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blog', args=[65, {}]}
+2022-03-26 11:15:35.095  INFO 2812 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : blog
+2022-03-26 11:15:35.145 ERROR 2812 --- [http-nio-8102-exec-5] c.sky.hander.ControllerExceptionHandler  : Requst URL : http://localhost:8102/blog/%E8%85%8C%E5%88%B6.jpg，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "腌制.jpg"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2022-03-26 11:15:35.146  WARN 2812 --- [http-nio-8102-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "腌制.jpg"]
+2022-03-26 11:15:35.464  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:15:35.475  INFO 2812 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/comments/65', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.CommentController.comments', args=[65, {}]}
+2022-03-26 11:15:35.480  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:15:35.481  INFO 2812 --- [http-nio-8102-exec-9] com.sky.aspect.LogAspect                 : Result : blog :: commentList
+2022-03-26 11:15:46.989  INFO 2812 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/signInStateCheck', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.SignController.signStateCheck', args=[org.apache.catalina.session.StandardSessionFacade@7a5a6551]}
+2022-03-26 11:15:46.989  INFO 2812 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : success
+2022-03-26 11:15:47.002  INFO 2812 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/comments', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.CommentController.post', args=[Comment{id=null, nickname='null', email='null', content='pl', avatar='null', createTime=null, blogId=65, parentCommentId=null, parentNickname='null', replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blogId=null, parentCommentId=null, parentNickname='null', replyComments=[], parentComment=null, adminComment=false, blog=null}, adminComment=false, blog=null}, org.apache.catalina.session.StandardSessionFacade@7a5a6551, {comment=Comment{id=null, nickname='null', email='null', content='pl', avatar='null', createTime=null, blogId=65, parentCommentId=null, parentNickname='null', replyComments=[], parentComment=Comment{id=-1, nickname='null', email='null', content='null', avatar='null', createTime=null, blogId=null, parentCommentId=null, parentNickname='null', replyComments=[], parentComment=null, adminComment=false, blog=null}, adminComment=false, blog=null}, org.springframework.validation.BindingResult.comment=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2022-03-26 11:15:47.016  INFO 2812 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : blog :: commentList
+2022-03-26 11:15:55.682  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/userInfo', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.UserInfoController.userInfo', args=[org.apache.catalina.session.StandardSessionFacade@7a5a6551]}
+2022-03-26 11:15:55.687  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : userInfo
+2022-03-26 11:15:55.790  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:15:55.798  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:16:11.964  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/search', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.search', args=[{}, 1, q]}
+2022-03-26 11:16:11.987  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : search
+2022-03-26 11:16:12.127  INFO 2812 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:16:12.135  INFO 2812 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:16:28.516  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:16:28.523  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:16:33.235  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:16:33.251  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:16:34.184  INFO 2812 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:16:34.190  INFO 2812 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:16:38.777  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:16:38.783  INFO 2812 --- [http-nio-8102-exec-5] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:17:06.702  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:17:06.708  INFO 2812 --- [http-nio-8102-exec-4] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:17:49.179  WARN 2812 --- [http-nio-8102-exec-3] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2022-03-26 11:17:49.332  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:17:49.337  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:18:10.563  INFO 2812 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:18:10.616  INFO 2812 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:18:25.630  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.index', args=[{}, 1, {}]}
+2022-03-26 11:18:25.639  INFO 2812 --- [http-nio-8102-exec-1] com.sky.aspect.LogAspect                 : Result : index
+2022-03-26 11:18:25.769  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:18:25.778  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:18:31.100  INFO 2812 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.ArchiveShowController.archive', args=[{}]}
+2022-03-26 11:18:31.106  INFO 2812 --- [http-nio-8102-exec-6] com.sky.aspect.LogAspect                 : Result : archives
+2022-03-26 11:18:31.259  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:18:31.266  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 11:19:09.697  INFO 2812 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/friends', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.FriendsShowController.friends', args=[{}]}
+2022-03-26 11:19:09.710  INFO 2812 --- [http-nio-8102-exec-2] com.sky.aspect.LogAspect                 : Result : friends
+2022-03-26 11:19:09.843  INFO 2812 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 11:19:09.862  INFO 2812 --- [http-nio-8102-exec-7] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 14:02:35.678  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/message', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.message', args=[]}
+2022-03-26 14:02:35.691  INFO 2812 --- [http-nio-8102-exec-10] com.sky.aspect.LogAspect                 : Result : message
+2022-03-26 14:02:37.842  INFO 2812 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/footer/blogmessage', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.IndexController.blogMessage', args=[{}]}
+2022-03-26 14:02:37.867  INFO 2812 --- [http-nio-8102-exec-3] com.sky.aspect.LogAspect                 : Result : about :: blogMessage
+2022-03-26 14:02:37.888  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Request : {url='http://localhost:8102/messagecomment', ip='0:0:0:0:0:0:0:1', classMethod='com.sky.controller.MessageController.messages', args=[{}]}
+2022-03-26 14:02:37.895  INFO 2812 --- [http-nio-8102-exec-8] com.sky.aspect.LogAspect                 : Result : message::messageList
